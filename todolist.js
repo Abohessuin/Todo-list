@@ -4,16 +4,6 @@ const todoinput=document.querySelector(".todo-input");
 const filtertodo=document.querySelector(".filter-todo");
 
 
-
-
-
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded",getfromstorage);
 todobutton.addEventListener("click",addtodo);
 todolist.addEventListener("click",deletetodo);
